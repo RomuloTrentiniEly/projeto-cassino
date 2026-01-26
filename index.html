@@ -305,7 +305,7 @@
       
       /* Background mobile com estátua */
       .hero{
-        background-image: url('images/estatua-mobile.png');
+        background-image: url('images/estatua-mobile.png.png');
         animation: none;
       }
     }
@@ -386,9 +386,8 @@
 
     function handleCadastroClick(e){
       e.preventDefault();
-      // abre o cadastro em nova aba e leva o usuário ao WhatsApp nesta aba (sem sair do fluxo)
+      // abre o cadastro em nova aba
       window.open(CADASTRO_URL, '_blank', 'noopener');
-      setTimeout(() => { window.location.href = WHATS_URL; }, 900);
     }
 
     function handleWhatsClick(e){
